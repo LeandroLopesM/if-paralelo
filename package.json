@@ -29,6 +29,7 @@
   },
   "devDependencies": {
     "@types/react": "~19.2.2",
+    "autoprefixer": "^10.5.2",
     "typescript": "~6.0.3"
   },
   "scripts": {
