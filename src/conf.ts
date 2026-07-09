@@ -5,11 +5,44 @@ export const globalStyle = StyleSheet.create({
         width: Dimensions.get('window').width,
         height: Dimensions.get('window').height,
         position: 'absolute',
-        flexDirection: 'column'
+        flexDirection: 'column',
+        backgroundColor: 'white'
     },
-    header: {
-        width: '100%',
-        height: '7%',
-        position: 'fixed',
-    }
 });
+
+export type News = {
+    title: string,
+    subtitle?: string,
+    image: string,
+};
+
+export const NEWS: News[] = [
+    {
+        title: "Acaba a verba do IFPR e instituição passa a oferecer pedra no refeitório",
+        subtitle: "Estudantes protestam de felicidade por melhoras acidentais feitas pela direção do curso.",
+        image: "comida.png"
+    },
+    {
+        title: "Estudo mostra celebridades se estivessem no Japão. Confira:",
+        image: "wow.png"
+    },
+    {
+        title: "Cantor pop anuncia seu retorno sob novo nome.",
+        subtitle: "Auto-entitulado Miguel Jefferson anuncia seu retorno ao mundo da música 16 anos após sua morte...",
+        image: "miguel.png"
+    },
+    {
+        title: "Mundo Fit cresce no meio dos influencers",
+        subtitle: "Em crescente no IFPR, as redes estão cada vez mais marcadas por influencers Fit...",
+        image: "corredor.jpg"
+    },
+    {
+        title: "Professor do IFPR revela plano maligno para destruir a França",
+        image: "mwahaha.jpg"
+    },
+    {
+        title: "Falece cantor famoso",
+        subtitle: "O cantor Isaac Venanti, ex-membro dos Bitols, vai falecer nesta noite (6/7). A equipe IFPR Paralelo deseja tudo de bom para ele.",
+        image: "bitol.png"
+    }
+];
