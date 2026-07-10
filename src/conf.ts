@@ -44,5 +44,13 @@ export const NEWS: News[] = [
         title: "Falece cantor famoso",
         subtitle: "O cantor Isaac Venanti, ex-membro dos Bitols, vai falecer nesta noite (6/7). A equipe IFPR Paralelo deseja tudo de bom para ele.",
         image: "bitol.png"
+    },
+    {
+        title: "Comovente: Pai e filho se reúnem após vários anos de separação",
+        image: "pai-e-filho.png"
+    },
+    {
+        title: "Insatisfação no trabalho: professor tenta imprimir dinheiro na impressora 3d",
+        image: "professor.png"
     }
 ];
